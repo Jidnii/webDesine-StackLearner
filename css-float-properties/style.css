@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.wraper{
+    margin: 50px auto;
+    width: 600px;
+    /* height: 300px; */
+    /* border: 1px dashed green; */
+
+
+}
+.left{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    float: left;
+
+
+}
+.right{
+    width: 330px;
+    height: 250px;
+    background-color: blue;
+    /* float: right; */
+    float: left;
+    
+
+}
+.foter{
+    margin: 0px auto;
+    width: 600px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.clearFix::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+
+
+
+
