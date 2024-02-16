@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.containar{
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid red;
+    background-color: aqua;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 75px;
+    align-items: flex-end;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+}
+.child1{
+    background-color: blue;
+}
+.child2{
+    background-color: azure;
+
+}
+.child3{
+    background-color:forestgreen;
+}
