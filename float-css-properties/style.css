@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.wraper{
+    width: 660px;
+    margin: 20px auto;
+    
+}
+.para{
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1{
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    /* text-decoration: none; */
+}
+
+
+.img-box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    float: left;
+    margin-right: 10px;
+
+}
+.para-2{
+    float: left;
+}
+
+
+.checkFloat{
+    height: 100px;
+    width: 600px;
+    margin: 5px auto;
+    background-color: green;
+
+}
