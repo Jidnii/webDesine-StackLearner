@@ -4,22 +4,26 @@
     box-sizing: border-box;
 }
 .containar{
-    width: 600px;
+    width: 100vw;
     margin: 20px auto;
     border: 1px solid red;
-    background-color: aqua;
+    background-color: black;
     display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* gap: 1rem; */
+    /* flex-wrap: wrap; */
 
 
 }
 .box{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     line-height: 75px;
     align-items: flex-end;
+    border-radius: 10px;
 
     /* display: flex;
     justify-content: center;
