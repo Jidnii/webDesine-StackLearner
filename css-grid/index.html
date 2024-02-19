@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid layout</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .containar{
+            display: grid;
+            /* height: 600px; */
+            /* grid-template-columns: 1fr 1fr; */
+            /* grid-template-columns: 100px 100px; */
+            /* grid-column-gap: 5px;     */
+            /* grid-row-gap: 10px; */
+            background-color: aqua;
+            grid-gap: 5px;
+            grid-template-columns: 1fr 1fr 1fr;
+
+
+
+                
+          
+        }
+        .item{
+
+            padding: 20px 0px;
+            text-align: center;
+            
+        }
+        .item1{
+            /* background-color: white; */
+            /* grid-column-start: 1; */
+            /* grid-column-end: 3; */
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .item4{
+            /* grid-column-start: 1; */
+            /* grid-column-end: -1; */
+            grid-column-start: 2;
+            grid-column-end: -1;
+        }
+        .item2{
+            /* grid-row-start: 2; */
+            /* grid-row-end: -1; */
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+
+    </style>
+</head>
+<body> 
+    <h1>css grid</h1>
+      <div class="containar">
+
+        
+        <div class="item item1">Header</div>
+        <div class="item item2">manue</div>
+        <div class="item item3"> left content</div>
+        <div class=" item item5">right content</div>
+        <div class="item item4">foter</div>
+        <!-- <div class="item item5"></div> -->
+        <!-- <div class="item item6"></div> -->
+
+        
+        
+        
+      </div>
+</body>
+</html>

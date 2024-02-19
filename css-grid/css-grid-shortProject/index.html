@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        .grid-containar{
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-gap: 10px;
+            grid-template-areas: 
+            "a a a a a a a a b b b b"
+            "c c c c d d d d b b b b";
+        }
+        .item1{
+            grid-area: a;
+            /* height: 200px; */
+        }
+        .item2{
+            grid-area: b;
+        }
+        .item3{
+            grid-area: c;
+        }
+        .item4{
+            grid-area: d;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>css grid</h1>
+    <div class="grid-containar">
+        <div class="item item1">A</div>
+        <div class="item item2">B</div>
+        <div class="item item3">D</div>
+        <div class="item item4">C</div>
+
+    </div>
+</body>
+</html>
