@@ -1,0 +1,66 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css psudo classes</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .containar{
+            margin: 30px auto;
+            padding: 10px;
+            box-sizing: border-box;
+
+        }
+        form{
+            /* background-color: red; */
+            height: 100%;
+            width: 100%;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        input{
+            outline: none;
+        }
+        #checkbox:checked{
+            width: 50px;
+            height: 50px;
+        }
+        #txt:active{
+            outline: none;
+            border: 2px solid red;
+            
+        }
+        button:disabled{
+            background-color: aqua;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="containar">
+        <form action="">
+            <label for="fie">input</label>
+            <br>
+            <input type="text" name="fie" id="txt" placeholder="enter your text">
+            <!-- <br> -->
+            <input type="checkbox" name="checkbox" id="checkbox"><span>ckeked</span>
+            <br>
+            <button>button</button>
+        </form>
+    </div>
+
+
+    <img src="https://source.unsplash.com/random/520x600/?gym,coding
+    " alt="">
+
+
+
+
+
+
+  </body>
+  </html>

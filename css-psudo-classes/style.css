@@ -1,0 +1,10 @@
+#txt:focus{
+    outline: none;
+    border: 3px solid papayawhip;
+
+    
+}
+#txt:hover{
+    border: 5px solid purple;
+
+}

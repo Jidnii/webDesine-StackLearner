@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    /* background-image: url('image/jidni.jpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.img-box{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid rebeccapurple; */
+    position: relative;
+    margin: 20px auto;
+    background-image: url('image/jidni.jpg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 5px;  
+    transition: background-size 0.3s linear;
+
+}
+.img-box:hover{
+    background-size: 110% 110%;
+}
+h1{
+    text-align: center;
+    height: 60px;
+    width: 90px;
+    letter-spacing: 4px;
+    background-image: linear-gradient(#cb1231,red,#16ce63,#1b0ff5,orange);
+    margin: 20px auto;
+    color: transparent;
+    background-clip: text;
+    /* -webkit-text-stroke:none;
+ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

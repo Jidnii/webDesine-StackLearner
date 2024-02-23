@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.containar{
+    width: 600px;
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 30px auto;
+
+}
+.inline{
+    height: 50px;
+    width: 139px;
+    border: 1px solid red;
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+    height: 50px;
+    width: 139px;
+    border: 1px solid red;
+
+}
+.block{
+    display: block;
+}

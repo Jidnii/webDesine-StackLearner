@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.contatnar{
+    width: 600px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: aliceblue;
+
+}
+h1{
+    position: relative;
+}
+h1::before{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: -35px;
+    top: 50%;
+
+}
+h1::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: -35px;
+    top: 50%;
+
+}
+
+p::first-letter{
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+}
+
+p::first-line{
+    text-decoration: underline;
+    
+}
+p::selection{
+    background-color: red;
+    color: white;
+
+
+}
+
+li::marker{
+    color: red;
+
+}
+
+
+
+
+.flex-box{
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-box > .box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid paleturquoise;
+    position: relative;
+    
+   
+
+
+}
+.box3{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.box3 > img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
