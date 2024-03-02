@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transfrom properties in css</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .transfrom{
+            border-radius: 5px;
+            opacity: 0.8;
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: hidden;
+        }
+
+        .inner{
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            border-radius: 50%;
+            top: -30%;
+            left: -30%;
+            z-index: -1;
+            opacity: 0.9;
+            box-shadow: 
+            1px 1px 30px rgba(0,0,0,0.5),
+            -2px -3px 10px rgba(255,255,255,0.5),
+            inset 4px 5px 4px rgba(255,255,255,0.5),
+            inset -4px -5px 10px rgba(0,0,0,0.5)
+            ;
+
+        }
+        .main{
+            height: 200px;
+            width: 200px;
+            position: relative;
+            /* border: 2px solid red; */
+        }
+        .main > .frist-child,.second-child{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            /* border: 1px solid red; */
+            position: absolute;
+        }
+        .second-child{
+            background-color: #dbfaf7;
+            left: 50%;
+            top: 70%;
+            transform: translate(-50%,-50%);
+            opacity: 0.6;
+            backface-visibility: hidden;
+            backdrop-filter: blur(50px);
+            
+        }
+        .frist-child{
+            box-shadow: 
+            1px 1px 30px rgba(0,0,0,0.5),
+            -2px -3px 10px rgba(255,255,255,0.5),
+            inset 4px 5px 4px rgba(255,255,255,0.5),
+            inset -4px -5px 10px rgba(0,0,0,0.5)
+            ;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <din class="containar">
+        <div class="transfrom">
+            <div class="inner"></div>
+        </div>
+    </din>
+    <div class="main">
+        <div class="frist-child"></div>
+        <div class="second-child"></div>
+    </div>
+</body>
+</html>

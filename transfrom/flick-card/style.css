@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.flick-content{
+    /* backface-visibility:hidden ; */
+   /* backdrop-filter:blur(20px) ; */
+   height: 350px;
+   width: 250px;
+   position: relative;
+   border-radius: 5px;
+   border: 2px solid slateblue;
+
+}
+.flick-content > .font-face,.back-face{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.font-face{
+    background-color: blue;
+}
+.back-face{
+    background-color: brown;
+    transform: rotateY(30deg);
+    transition: all 2s linear;
+  
+
+
+
+
+
+}
+
+.back-face:hover{
+    transform: translate(10px) rotateY(-30deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
